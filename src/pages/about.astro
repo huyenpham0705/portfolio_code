@@ -1,8 +1,28 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "About Me";
+
+const platforms = ["Adobe Illustrator", "Adobe Photoshop", "Figma"];
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <h2>About me something</h2>
+    <p>
+        Hi! I'm Huyen Pham. I was born in Hanoi, Vietnam, and now I'm studying
+        in Kortrijk, Belgium. <br />
+        I'm a second-year student at DEVINE, Howest University. Growing up in Hanoi,
+        a city with a long history and rich culture, gave me a lot of inspiration
+        for my designs. <br />
+
+        In high school, I started designing by working with non-profit
+        organizations created by students. I made media posts, stickers,
+        standees, and cards. That helped me get used to designing platforms and
+        practice my skills. <br /> Now at DEVINE, I'm learning more about web design.
+        The projects are harder and I need to do more research to improve. <br
+        />
+    </p>
+    <p>I usually work with:</p>
+    <ul>
+        {platforms.map((platform) => <li class="platform">{platform}</li>)}
+    </ul>
+    <p>Thanks for reading!</p>
 </BaseLayout>
