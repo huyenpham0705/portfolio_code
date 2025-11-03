@@ -4,19 +4,19 @@ const pageTitle = "Articles";
 
 const articles = [
     {
-        number: 1,
+        link: "../post_articles/article-1",
         name: "How Joining Non-Profit Projects Shaped My Perspective on Design.",
         intro: "My first exposure to design came through student organizations - an experience that revealed both its challenges and rewards.",
         year: 2025,
     },
     {
-        number: 2,
+        link: "../post_articles/article-2",
         name: "Dealing with Creative Block in Designing.",
         intro: "Creative block happens to everyone in creative fields - especially designers. Here’s how I navigate it.",
         year: 2025,
     },
     {
-        number: 3,
+        link: "../post_articles/article-3",
         name: "Design with Flexibility.",
         intro: "Explore, adapt, and evolve your creative process with confidence.",
         year: 2025,
@@ -30,9 +30,11 @@ const articles = [
         {
             articles.map((article) => (
                 <li class="article-card">
-                    <h3 class="article-name">{article.name}</h3>
-                    <p class="article-year">{article.intro}</p>
-                    <p class="article-year">{article.year}</p>
+                    <a href={article.link}>
+                        <h3 class="article-name">{article.name}</h3>
+                        <p class="article-year">{article.intro}</p>
+                        <p class="article-year">{article.year}</p>
+                    </a>
                 </li>
             ))
         }

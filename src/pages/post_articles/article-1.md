@@ -7,6 +7,7 @@ author: 'Huyen Pham'
 
 # How Joining Non-Profit Projects Shaped My Perspective on Design.
 
+Author: Huyen Pham
 Published on: 2025-11-01
 
 My first exposure to design came through student organizations - an experience that revealed both its challenges and rewards.

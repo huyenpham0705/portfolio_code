@@ -7,6 +7,7 @@ author: 'Huyen Pham'
 
 # Design with Flexibility.
 
+Author: Huyen Pham
 Published on: 2025-11-03
 
 Explore, adapt, and evolve your creative process with confidence.
