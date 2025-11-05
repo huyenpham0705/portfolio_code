@@ -12,6 +12,14 @@ const { pageTitle } = Astro.props;
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="global.css" />
         <title>{pageTitle}</title>
     </head>
     <body>
@@ -20,7 +28,7 @@ const { pageTitle } = Astro.props;
         <slot />
         <Footer />
         <script>
-            import "../scripts/menu.js"
+            import "../scripts/menu.js";
         </script>
     </body>
 </html>
