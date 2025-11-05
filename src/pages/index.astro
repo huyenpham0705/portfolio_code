@@ -1,16 +1,61 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "Welcome to my PORTFOLIO";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Welcome to my PORTFOLIO</h1>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+	<h2>I’m Huyen Pham, nice to meet you!</h2>
+	<p>
+		Hi! I’m Huyen Pham, a Digital Design and Development student from
+		Vietnam, currently studying at DEVINE, Howest University of Applied
+		Sciences in Belgium.
+	</p>
+	<section class="home_projects">
+		<h3>My projects includes</h3>
+		<article class="projects_example">
+			<header>
+				<img class="icon_illustration" />
+				<h4>Illustration</h4>
+			</header>
+			<img />
+		</article>
+		<article class="projects_example">
+			<header>
+				<img class="icon_graphic" />
+				<h4>Graphic Design</h4>
+			</header>
+			<img />
+		</article>
+		<article class="projects_example">
+			<header>
+				<img class="icon_web" />
+				<h4>Web Design</h4>
+			</header>
+			<img />
+		</article>
+		<button><span>check out my work</span><img class="icon_arrow" /></button
+		>
+	</section>
+	<section class="home_articles">
+		<h3>My articles</h3>
+		<article class="articles_example">
+			<h4>Dealing with Creative Block in Designing</h4>
+			<p class="articles_example_text">
+				Creative block happens to everyone in creative fields -
+				especially designers. Here’s how I navigate it
+			</p>
+			<p class="year">2025</p>
+		</article>
+		<article class="articles_example">
+			<h4>
+				How Joining Non-Profit Projects Shaped My Perspective on Design.
+			</h4>
+			<p class="articles_example_text">
+				My first exposure to design came through student organizations -
+				an experience that revealed both its challenges and rewards.
+			</p>
+			<p class="year">2025</p>
+		</article>
+		<button><span>view all article</span><img class="icon_arrow" /></button>
+	</section>
+</BaseLayout>
