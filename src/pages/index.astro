@@ -1,4 +1,5 @@
 ---
+import Articles from "../components/Articles.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Welcome to my PORTFOLIO";
 ---
@@ -36,26 +37,5 @@ const pageTitle = "Welcome to my PORTFOLIO";
 		<button><span>check out my work</span><img class="icon_arrow" /></button
 		>
 	</section>
-	<section class="home_articles">
-		<h3>My articles</h3>
-		<article class="articles_example">
-			<h4>Dealing with Creative Block in Designing</h4>
-			<p class="articles_example_text">
-				Creative block happens to everyone in creative fields -
-				especially designers. Here’s how I navigate it
-			</p>
-			<p class="year">2025</p>
-		</article>
-		<article class="articles_example">
-			<h4>
-				How Joining Non-Profit Projects Shaped My Perspective on Design.
-			</h4>
-			<p class="articles_example_text">
-				My first exposure to design came through student organizations -
-				an experience that revealed both its challenges and rewards.
-			</p>
-			<p class="year">2025</p>
-		</article>
-		<button><span>view all article</span><img class="icon_arrow" /></button>
-	</section>
+	<Articles />
 </BaseLayout>

@@ -1,0 +1,25 @@
+---
+import ArticlesCard from "./ArticlesCard.astro";
+
+import { getCollection } from "astro:content";
+const articles = await getCollection("articles");
+---
+
+<section class="container" id="articles">
+    <header>
+        <h2><span>My articles</span></h2>
+        <p>
+            Here are my articles.
+        </p>
+    </header>
+    <ul>
+        {
+            articles.map((article) => (
+                <li>
+                    <ArticlesCard article={article} />
+                </li>
+            ))
+        }
+    </ul>
+</section>
+
