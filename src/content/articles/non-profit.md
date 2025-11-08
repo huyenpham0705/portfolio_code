@@ -1,8 +1,9 @@
 ---
 title: 'How Joining Non-Profit Projects Shaped My Perspective on Design.'
 pubDate: '2025-11-01'
-description: 'This is my first article.'
+description: 'My first exposure to design came through student organizations - an experience that revealed both its challenges and rewards.'
 author: 'Huyen Pham'
+id: "non-profit"
 ---
 
 # How Joining Non-Profit Projects Shaped My Perspective on Design.
