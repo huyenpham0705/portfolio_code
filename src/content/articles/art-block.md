@@ -1,8 +1,6 @@
 ---
 title: 'Dealing with Creative Block in Designing.'
-pubDate: '2025-11-02'
-description: 'Creative block happens to everyone in creative fields - especially designers. Here’s how I navigate it:'
-author: 'Huyen Pham'
+description: 'Creative block happens to everyone in creative fields - especially designers. Here’s how I navigate it.'
 id: "art-block"
 ---
 

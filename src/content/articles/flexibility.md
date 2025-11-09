@@ -1,8 +1,6 @@
 ---
 title: 'Design with Flexibility'
-pubDate: '2025-11-03'
 description: 'Explore, adapt, and evolve your creative process with confidence.'
-author: 'Huyen Pham'
 id: "flexibility"
 ---
 
