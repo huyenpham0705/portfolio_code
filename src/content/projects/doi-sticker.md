@@ -2,7 +2,6 @@
 title: 'ĐÓI Sticker - 2024'
 category: 'Graphic Design'
 description: 'A personal project inspired by Vietnamese streetfood.'
-pic: img/doi-sticker/thumbnail.png
 id: "doi-sticker"
 ---
 
