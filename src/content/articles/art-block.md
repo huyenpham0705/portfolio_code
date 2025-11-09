@@ -1,6 +1,6 @@
 ---
 title: 'Dealing with Creative Block in Designing.'
-description: 'Creative block happens to everyone in creative fields - especially designers. Here’s how I navigate it:'
+description: 'Creative block happens to everyone in creative fields - especially designers. Here’s how I navigate it.'
 id: "art-block"
 ---
 
