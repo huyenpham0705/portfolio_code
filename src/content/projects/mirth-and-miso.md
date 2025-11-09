@@ -2,7 +2,6 @@
 title: 'Mirth and Miso - 2025'
 category: 'Graphic Design'
 description: 'A personal project I work on to practice design visual identity.'
-pic: img/mirth-and-miso/thumbnail.png
 id: "mirth-and-miso"
 ---
 

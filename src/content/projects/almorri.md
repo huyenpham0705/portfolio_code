@@ -2,7 +2,6 @@
 title: 'Almorri - 2023'
 category: 'Illustration'
 description: 'Almorri Project – Season 2'
-pic: img/almorri/stamp.png
 id: "aegis"
 ---
 

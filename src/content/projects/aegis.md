@@ -2,7 +2,6 @@
 title: 'AEGIS - 2022'
 category: 'Illustration'
 description: 'Aegis Project – Season 4'
-pic: img/aegis/ngay-mai.png
 id: "aegis"
 ---
 
