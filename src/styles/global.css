@@ -3,3 +3,23 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p, button, .nav-links, .home_projects, .project-list, .platform-list {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
