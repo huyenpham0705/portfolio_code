@@ -15,4 +15,3 @@ Category: Graphic Design
 ![Open Coding Nights](img/doi-sticker/banhmi.png)
 ![Open Coding Nights](img/doi-sticker/bimbim.png)
 ![Open Coding Nights](img/doi-sticker/xien-ban.png)
-![Open Coding Nights](img/doi-sticker/color-palette.png)
