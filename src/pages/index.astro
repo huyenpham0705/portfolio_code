@@ -5,12 +5,14 @@ const pageTitle = "Welcome to my portfolio";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<h2>I’m Huyen Pham, nice to meet you!</h2>
-	<p>
+	<section class="hero_image">
+		<h2>I’m Huyen Pham, nice to meet you!</h2>
+		<p>
 		Hi! I’m Huyen Pham, a Digital Design and Development student from
 		Vietnam, currently studying at DEVINE, Howest University of Applied
-		Sciences in Belgium.
-	</p>
+		Sciences in Belgium.</p>
+		<img src="">
+	</section>
 	<section class="home_projects">
 		<h3>My projects includes</h3>
 		<article class="projects_example">
@@ -33,6 +35,6 @@ const pageTitle = "Welcome to my portfolio";
 				<img class="icon_arrow" />
 			</button>
 		</a>
-		<Articles />
 	</section>
+	<Articles />
 </BaseLayout>

@@ -23,3 +23,10 @@ p, button, .nav-links, .home_projects, .project-list, .platform-list {
     font-style: normal;
 }
 
+/* HERO IMAGE */
+.hero_image{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    
+}
